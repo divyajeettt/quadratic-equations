@@ -12,7 +12,7 @@ While the CLI is a one-time run program, the GUI can be used multiple times in t
 
 ## Edit the logging settings
 
-To modify the level of the `logger`, mmodify:
+To modify the level of the `logger`, modify:
 
 ```python
 logging.basicConfig(
