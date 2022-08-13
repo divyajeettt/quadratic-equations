@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 ```
 
- on Line 60 of `gui.py` to:
+ on [Line 60](https://github.com/divyajeettt/quadratic-equations/blob/3a837ea78a2030b9068906bffffc5ea01e5d6f5a/gui.py#L60) of `gui.py` to:
  
  ```python
  logging.basicConfig(
