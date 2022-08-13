@@ -14,8 +14,8 @@ def reduce(num: complex) -> complex|float|int:
     return num + 0
 
 
-def quadratic(a: complex, b: complex, c: complex):
-    """return the roots of ax² + bx + c = 0 as tuple (x1, x2)"""
+def quadratic(a: complex, b: complex, c: complex) -> tuple[complex, complex]:
+    """return the roots of ax² + bx + c = 0"""
 
     disc = sqrt(b**2 - 4*a*c)
     x1, x2 = (-b + disc) / 2*a, (-b -disc) / 2*a
@@ -57,7 +57,7 @@ def solution():
 
 LOG_FORMAT = "%(levelname)s: %(asctime)s - %(message)s"
 logging.basicConfig(
-    filename="quad_roots_gui.log", level=logging.DEBUG, format=LOG_FORMAT
+    filename="quad-equations-logs.log", level=logging.DEBUG, format=LOG_FORMAT
 )
 logger = logging.getLogger()
 
