@@ -23,7 +23,7 @@ def quadratic(a: complex, b: complex, c: complex) -> tuple[complex, complex]:
     return reduce(x1), reduce(x2)
 
 
-def solution():
+def solution() -> None:
     for i in range(3):
         if not coeffs[i].get().strip():
             showwarning("Empty Field", "All coefficients are required.")
