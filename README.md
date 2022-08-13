@@ -29,11 +29,11 @@ logging.basicConfig(
  ```
  
  where `LEVEL` can be one of:
- - logging.INFO
- - logging.DEBUG
- - logging.WARNING
- - logging.ERROR
- - logging.CRITICAL
+ - `logging.INFO`
+ - `logging.DEBUG`
+ - `logging.WARNING`
+ - `logging.ERROR`
+ - `logging.CRITICAL`
 
 ## Footnotes
 
