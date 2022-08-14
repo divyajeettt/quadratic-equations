@@ -19,7 +19,6 @@ def quadratic(a: complex, b: complex, c: complex) -> tuple[complex, complex]:
 
     disc = sqrt(b**2 - 4*a*c)
     x1, x2 = (-b + disc) / 2*a, (-b -disc) / 2*a
-
     return reduce(x1), reduce(x2)
 
 
@@ -73,12 +72,10 @@ Label(
     width=55, bd=5
 ).place(x=0, y=0)
 
-Label(
-    text=" ".join((
-        "Enter the coefficients a, b and constant c,",
-        "which can be real or complex."
-    ))
-).place(x=10, y=23)
+Label(text=" ".join((
+    "Enter the coefficients a, b and constant c,",
+    "which can be real or complex."
+))).place(x=10, y=23)
 
 Label(text="YOUR EQUATION:").place(x=10, y=45)
 Label(text="YOUR SOLUTION / ROOTS:").place(x=10, y=137)
