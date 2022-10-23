@@ -37,7 +37,7 @@ logging.basicConfig(
 
 ## Footnotes
 
-- The project <b>only</b> supports equations of the type `ax² + bx + c = 0`, i.e. purely quadratic equations.
+- The project **only** supports equations of the type `ax² + bx + c = 0`, i.e. purely quadratic equations.
 - The coefficient `a` of `x²` cannot be set equal to 0.
 
 ## Run
